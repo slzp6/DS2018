@@ -1,0 +1,69 @@
+--- hash table stats ---
+buckets: 29 
+num: 26 
+------------------------
+------------------------
+00: 25(zulu)  3(delta) 
+01: 
+02: 
+03:  2(charlie) 
+04: 23(x-ray) 22(whisky) 
+05: 
+06: 
+07:  5(foxtrot) 
+08: 18(sierra) 
+09:  4(echo) 
+10: 
+11: 
+12: 15(papa) 
+13: 11(lima) 
+14: 20(uniform) 14(oscar) 
+15: 19(tango)  9(juliet) 
+16: 12(mike)  1(bravo) 
+17: 
+18:  7(hotel)  6(golf) 
+19: 
+20: 16(quebec) 
+21: 13(november) 
+22: 
+23: 
+24: 17(romeo)  8(india) 
+25: 21(victor) 10(kilo)  0(alpha) 
+26: 
+27: 
+28: 24(yankee) 
+------------------------
+search 'sierra' -> 18
+search 'kilo' -> 10
+search 'ouj' -> -1
+------------------------
+00: 25(zulu) 
+01: 
+02: 
+03: 
+04: 23(x-ray) 22(whisky) 
+05: 
+06: 
+07: 
+08: 18(sierra) 
+09: 
+10: 
+11: 
+12: 15(papa) 
+13: 
+14: 20(uniform) 14(oscar) 
+15: 19(tango) 
+16: 
+17: 
+18: 
+19: 
+20: 16(quebec) 
+21: 13(november) 
+22: 
+23: 
+24: 17(romeo) 
+25: 21(victor) 
+26: 
+27: 
+28: 24(yankee) 
+------------------------

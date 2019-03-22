@@ -1,0 +1,34 @@
+insert: 2383
+insert: 777
+insert: 1793
+insert: 2386
+insert: 2649
+--- hash table ---
+[000]:[empty]
+[001]:[empty]
+[002]:[empty]
+[003]:[2383, user_a, 86.00]
+[004]:[1793, user_c, 35.00]
+[005]:[empty]
+[006]:[2386, user_d, 92.00]
+[007]:[0777, user_b, 15.00]
+[008]:[empty]
+[009]:[2649, user_e, 21.00]
+------------------
+
+Search [2649] -> Found at index:9
+delete [2649] 
+
+--- hash table ---
+[000]:[empty]
+[001]:[empty]
+[002]:[empty]
+[003]:[2383, user_a, 86.00]
+[004]:[1793, user_c, 35.00]
+[005]:[empty]
+[006]:[2386, user_d, 92.00]
+[007]:[0777, user_b, 15.00]
+[008]:[empty]
+[009]:[deleted]
+------------------
+

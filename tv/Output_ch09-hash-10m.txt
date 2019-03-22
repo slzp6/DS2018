@@ -1,0 +1,4 @@
+hash table
+  data:   10000000 
+  bucket: 20000000 
+done

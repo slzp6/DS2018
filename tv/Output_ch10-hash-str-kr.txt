@@ -1,0 +1,26 @@
+   alpha: 518
+   bravo: 538
+ charlie: 728
+   delta: 522
+    echo: 415
+ foxtrot: 790
+    golf: 424
+   hotel: 540
+   india: 517
+  juliet: 653
+    kilo: 431
+    lima: 419
+    mike: 422
+november: 862
+   oscar: 536
+    papa: 418
+  quebec: 629
+   romeo: 546
+  sierra: 646
+   tango: 537
+ uniform: 768
+  victor: 663
+  whisky: 671
+   x-ray: 497
+  yankee: 637
+    zulu: 464

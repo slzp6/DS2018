@@ -1,0 +1,29 @@
+(insert) data:383   key:383
+(insert) data:886   key:886
+(insert) data:777   key:777
+(insert) data:915   key:915
+(insert) data:793   key:793
+(insert) data:335   key:335
+(insert) data:386   key:386
+(insert) data:492   key:492
+(insert) data:649   key:649
+(insert) data:421   key:421
+--- hash table info ---
+buckets: 10 
+num: 10 
+------------------------
+------------------------
+00: 
+01: 421 
+02: 492 
+03: 793 383 
+04: 
+05: 335 915 
+06: 386 886 
+07: 777 
+08: 
+09: 649 
+------------------------
+[search] key:383 -> data:383
+[search] key:886 -> data:886
+[search] key:777 -> data:777

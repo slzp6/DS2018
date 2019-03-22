@@ -1,0 +1,1 @@
+factorial_tail(5) = 120

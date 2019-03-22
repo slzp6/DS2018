@@ -1,0 +1,16 @@
+graph (undirected)
+#vertices: 4
+------------------
+a: b c 
+b: a c 
+c: a b d 
+d: c 
+------------------
+graph (directed)
+#vertices: 4
+------------------
+a: 
+b: a 
+c: a b d 
+d: 
+------------------

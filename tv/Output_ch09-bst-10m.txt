@@ -1,0 +1,3 @@
+binary search tree
+  data: 10000000 
+done

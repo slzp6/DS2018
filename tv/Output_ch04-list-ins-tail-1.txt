@@ -1,0 +1,5 @@
+DATA_SIZE: 100000000
+insert(head): 4.957 sec.
+Linked_list [ 86 09 69 14 94 95 57 36 77 70  ... ]
+
+insert(tail): 0.306 sec.

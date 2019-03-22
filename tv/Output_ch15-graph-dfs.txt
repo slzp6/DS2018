@@ -1,0 +1,52 @@
+  abcdefghijkl
+a 011000000000
+b 100110000000
+c 100000000000
+d 010001000000
+e 010000110000
+f 000100000000
+g 000010001100
+h 000010000010
+i 000000100001
+j 000000100001
+k 000000010000
+l 000000001100
+
+Depth-First Search (DFS) 
+'a'
+push (a) STACK[ a ]
+'b'
+push (b) STACK[ ab ]
+'d'
+push (d) STACK[ abd ]
+'f'
+push (f) STACK[ abdf ]
+pop  (f) STACK[ abd ]
+pop  (d) STACK[ ab ]
+'e'
+push (e) STACK[ abe ]
+'g'
+push (g) STACK[ abeg ]
+'i'
+push (i) STACK[ abegi ]
+'l'
+push (l) STACK[ abegil ]
+'j'
+push (j) STACK[ abegilj ]
+pop  (j) STACK[ abegil ]
+pop  (l) STACK[ abegi ]
+pop  (i) STACK[ abeg ]
+pop  (g) STACK[ abe ]
+'h'
+push (h) STACK[ abeh ]
+'k'
+push (k) STACK[ abehk ]
+pop  (k) STACK[ abeh ]
+pop  (h) STACK[ abe ]
+pop  (e) STACK[ ab ]
+pop  (b) STACK[ a ]
+'c'
+push (c) STACK[ ac ]
+pop  (c) STACK[ a ]
+pop  (a) STACK[  ]
+

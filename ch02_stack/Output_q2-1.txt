@@ -1,0 +1,10 @@
+push: 300
+push: 400
+push: 500
+peek: 500
+peek: 500
+STACK(3): 300 400 500 
+pop:  500
+peek: 400
+pop:  400
+pop:  300

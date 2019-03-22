@@ -1,0 +1,13 @@
+push_front: 83
+push_front: 86
+push_front: 77
+push_front: 15
+push_front: 93
+push_front: 35
+push_front: 86
+push_front: 92
+push_front: 49
+push_front: 21
+list    (10) : 21 49 92 86 35 93 15 77 86 83 
+sort    (10) : 93 92 86 86 83 77 49 35 21 15 
+reverse (10) : 15 21 35 49 77 83 86 86 92 93 

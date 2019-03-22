@@ -1,0 +1,8 @@
+Called 'gcd(12,18)' 
+Called 'gcd(18,12)' 
+Called 'gcd(12,6)' 
+Called 'gcd(6,0)' 
+Returning 'gcd(12,6)=6' 
+Returning 'gcd(18,12)=6' 
+Returning 'gcd(12,18)=6' 
+GCD(12, 18) = 6

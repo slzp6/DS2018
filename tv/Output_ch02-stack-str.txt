@@ -1,0 +1,25 @@
+'/usr/share/dict/words' (479828)
+push:
+    Zythia (index:479818)
+    zythum (index:479819)
+   Zyzomys (index:479820)
+Zyzzogeton (index:479821)
+   zyzzyva (index:479822)
+  zyzzyvas (index:479823)
+        ZZ (index:479824)
+        Zz (index:479825)
+       zZt (index:479826)
+       ZZZ (index:479827)
+
+pop:
+       ZZZ (index:479827)
+       zZt (index:479826)
+        Zz (index:479825)
+        ZZ (index:479824)
+  zyzzyvas (index:479823)
+   zyzzyva (index:479822)
+Zyzzogeton (index:479821)
+   Zyzomys (index:479820)
+    zythum (index:479819)
+    Zythia (index:479818)
+

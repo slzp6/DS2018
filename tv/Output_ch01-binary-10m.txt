@@ -1,0 +1,7 @@
+0 1 2 3 4 5 6 7 8 9 
+
+qsort (10000000): 3.117 sec.
+
+binary search (10000000)  **********
+found: 5017091   not_found: 4982909
+time: 1.781 sec.

@@ -1,0 +1,12 @@
+     Called 'factorial(5)' 
+    Called 'factorial(4)' 
+   Called 'factorial(3)' 
+  Called 'factorial(2)' 
+ Called 'factorial(1)' 
+Called 'factorial(0)' 
+ Returning 'factorial(1)=1' 
+  Returning 'factorial(2)=2' 
+   Returning 'factorial(3)=6' 
+    Returning 'factorial(4)=24' 
+     Returning 'factorial(5)=120' 
+Factorial of 5 is 120

@@ -1,0 +1,5 @@
+random numbers (100000000) ... done
+sorting (100000000) ... done
+7 37 51 95 95 181 224 227 315 367 
+bsearch (100000000)
+Found: 181

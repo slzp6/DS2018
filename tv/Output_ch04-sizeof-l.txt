@@ -1,0 +1,8 @@
+node   (NODE_TYPE)     64 byte(s)
+
+data_i (int)           4 byte(s)
+data_f (float)         4 byte(s)
+data_d (double)        8 byte(s)
+data_c (char)          1 byte(s)
+data_s (char s[32])    32 byte(s)
+next   (struct Node *) 8 byte(s)

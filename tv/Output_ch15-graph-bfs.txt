@@ -1,0 +1,52 @@
+  abcdefghijkl
+a 011000000000
+b 100110000000
+c 100000000000
+d 010001000000
+e 010000110000
+f 000100000000
+g 000010001100
+h 000010000010
+i 000000100001
+j 000000100001
+k 000000010000
+l 000000001100
+
+Breadth-First Search (BFS) 
+'a'
+enqueue (a) QUEUE[ a ]
+dequeue (a) QUEUE[  ]
+'b'
+enqueue (b) QUEUE[ b ]
+'c'
+enqueue (c) QUEUE[ bc ]
+dequeue (b) QUEUE[ c ]
+'d'
+enqueue (d) QUEUE[ cd ]
+'e'
+enqueue (e) QUEUE[ cde ]
+dequeue (c) QUEUE[ de ]
+dequeue (d) QUEUE[ e ]
+'f'
+enqueue (f) QUEUE[ ef ]
+dequeue (e) QUEUE[ f ]
+'g'
+enqueue (g) QUEUE[ fg ]
+'h'
+enqueue (h) QUEUE[ fgh ]
+dequeue (f) QUEUE[ gh ]
+dequeue (g) QUEUE[ h ]
+'i'
+enqueue (i) QUEUE[ hi ]
+'j'
+enqueue (j) QUEUE[ hij ]
+dequeue (h) QUEUE[ ij ]
+'k'
+enqueue (k) QUEUE[ ijk ]
+dequeue (i) QUEUE[ jk ]
+'l'
+enqueue (l) QUEUE[ jkl ]
+dequeue (j) QUEUE[ kl ]
+dequeue (k) QUEUE[ l ]
+dequeue (l) QUEUE[  ]
+

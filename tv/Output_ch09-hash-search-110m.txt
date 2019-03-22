@@ -1,0 +1,9 @@
+table_size: 110000000
+data_size:  100000000
+hash table init. ... done
+hash table insert ... done
+hash table search ... done
+data:       100000000
+found:      4552164 (4.55%)
+not_found:  95447836 (95.45%)
+search time: 23.839 sec.

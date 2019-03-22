@@ -1,0 +1,11 @@
+enqueue: 680
+enqueue: 670
+enqueue: 690
+enqueue: 650
+enqueue: 660
+
+dequeue: 680
+dequeue: 670
+dequeue: 690
+
+peek_front: 650
