@@ -157,10 +157,13 @@ void hash_table_info (HASH_TABLE * table) {
 int main () {
   int i, data;
   HASH_TABLE *table;
-  int key[DATA_SIZE];
+  int *key;
+  //  int key[DATA_SIZE];
 
   table = malloc (sizeof (HASH_TABLE));
   hash_table_init (table, HASH_TABLE_SIZE);
+  
+  key = malloc(sizeof(int) * DATA_SIZE);
 
   for (i = 0; i < DATA_SIZE; i++) {
     key[i] = rand () % (DATA_SIZE * 100);
@@ -173,7 +176,8 @@ int main () {
 
   hash_table_free (table);
 
+  free (key);
   free (table);
-
+  
   return 0;
 }
